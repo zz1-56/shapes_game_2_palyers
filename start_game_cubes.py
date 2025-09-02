@@ -7,6 +7,7 @@ from shapes import Create_Shapes
 window = Screen()
 window.setup(1200, 600)
 window.bgcolor('black')
+window.title('CUBES GAME')
 window.tracer(0)  # نوقف التحديث التلقائي
 
 paddlee1_right = body_paddle(300,-260)
